@@ -48,7 +48,7 @@ TC_004: Empty First name and Last Name
     Title Should Be    Registration
     Page Should Contain    Please enter your name!!
 
-TC_004: Empty Email
+TC_005: Empty Email
     Open Registration Page
     Input Text    name=firstname       Somyod
     Input Text    name=lastname        Sodsai
@@ -60,7 +60,7 @@ TC_004: Empty Email
     Title Should Be    Registration
     Page Should Contain    Please enter your email!!
 
-TC_005: Empty Phone Number
+TC_006: Empty Phone Number
     Open Registration Page
     Input Text    name=firstname       Somyod
     Input Text    name=lastname        Sodsai
@@ -72,7 +72,7 @@ TC_005: Empty Phone Number
     Title Should Be    Registration
     Page Should Contain    enter your phone number!!
 
-TC_006: Empty Phone Number
+TC_007: Empty Phone Number
     Open Registration Page
     Input Text    name=firstname       Somyod
     Input Text    name=lastname        Sodsai
